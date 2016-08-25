@@ -1,0 +1,66 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background-image: url('../images/nyc-background.jpg');
+  background-size: cover;
+  //opacity: .7;
+  height: 100vh;
+  background-position: center;
+  overflow: scroll;
+}
+
+.navbar-default {
+  background-color: red;
+  border-color: red;
+}
+
+.nav-bar-contents {
+  line-height: 50px;
+  color: white;
+  font-size: 18px;
+  a{
+    color: white;
+    margin-right: 20px;
+  }
+}
+
+.vics-sign-row {
+  padding: 0;
+  margin-top: 70px;
+  p{
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+  }
+}
+
+.vics-sign {
+  height: 400px;
+}
+
+.vics-title-picture {
+  background-image: url('../images/vics-pizza-pies.jpg');
+  background-size: cover;
+  height: 400px;
+  padding: 0;
+  margin-top: 70px;
+  @media (max-width: 992px) {
+    display: none;
+  }
+}

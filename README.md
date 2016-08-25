@@ -1,2 +1,1 @@
-## vics pizza
-# vics-pizza
+# pizza-shop

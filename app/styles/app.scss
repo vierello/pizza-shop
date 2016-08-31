@@ -25,6 +25,11 @@ img {
   overflow: scroll;
 }
 
+#container {
+  background-color: rgba(155, 155, 155, .4);
+  padding: 15px;
+}
+
 .navbar-default {
   background-color: red;
   border-color: red;
@@ -41,7 +46,7 @@ img {
 }
 
 .vics-sign-row {
-  padding: 0;
+  //padding: 0;
   margin-top: 70px;
   p{
     @media (max-width: 992px) {
@@ -50,15 +55,68 @@ img {
   }
 }
 
+.vics-sign-pic {
+  height: 400px;
+}
+
 .vics-sign {
   height: 400px;
+  background: white;
+  position: relative;
+}
+
+.vics-logo-circle {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+}
+
+.vics-circle-1 {
+  background-color: transparent;
+  border: 2px solid #71D632;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.vics-circle-2 {
+  background-color: transparent;
+  border: 2px solid #71D632;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  margin: 21% 21%;
+}
+
+.vics-logo {
+  font-family: Brush Script MT;
+  color: red;
+  position: absolute;
+  top: -65%;
+  left: -62%;
+  z-index: 10;
+  font-size: 74px;
+  transform: rotate(345deg);
+  display: inline-block;
+  line-height: 100px;
+}
+
+.brooklyn {
+  position: absolute;
+  bottom: 10px;
+  left: 14px;
+  color: #71D632;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .vics-title-picture {
   background-image: url('../images/vics-pizza-pies.jpg');
   background-size: cover;
   height: 400px;
-  padding: 0;
+  //padding: 0;
   margin-top: 70px;
   @media (max-width: 992px) {
     display: none;

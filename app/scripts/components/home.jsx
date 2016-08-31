@@ -22,9 +22,21 @@ var HomePageComponent = React.createClass({
         <HeaderComponent/>
         <div className="row">
           <div className="vics-sign-row col-md-4 col-xs-12">
-            <p><img className="vics-sign" src='./images/vics_sign.jpg'/></p>
+            <div className="vics-sign">
+              <div className="vics-logo-circle">
+                <div className="vics-circle-1">
+                  <div className="vics-circle-2">
+                    <span className="vics-logo">Vic&#8217;s</span>
+                  </div>
+                </div>
+              </div>
+              <div className="pizza">PIZZA</div>
+              <div className="brooklyn">BROOKLYN, SC</div>
+            </div>
           </div>
-          <div className="vics-title-picture col-md-8 hidden-xs">
+          <div className="col-md-8 hidden-xs">
+            <div className="vics-title-picture">
+            </div>
           </div>
         </div>
         <div className="row">

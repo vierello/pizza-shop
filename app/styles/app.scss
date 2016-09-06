@@ -5,6 +5,7 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
+//Global Styles-----------------------------------------------------------------
 
 *,
 *::before,
@@ -30,6 +31,8 @@ img {
   padding: 15px;
 }
 
+//Home Page Styles--------------------------------------------------------------
+
 .navbar-default {
   background-color: red;
   border-color: red;
@@ -37,11 +40,16 @@ img {
 
 .nav-bar-contents {
   line-height: 50px;
+  vertical-align: middle;
   color: white;
   font-size: 18px;
   a{
     color: white;
     margin-right: 20px;
+  }
+  p{
+    float: right;
+    display: inline;
   }
 }
 
@@ -103,6 +111,46 @@ img {
   line-height: 100px;
 }
 
+.p,
+.i,
+.z1,
+.z2,
+.a {
+  color: red;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.p {
+  position: absolute;
+  top: -3%;
+  left: 4%;
+}
+
+.i {
+  position: absolute;
+  top: 11%;
+  left: 24%;
+}
+
+.z1 {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+}
+
+.z2 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+.a {
+  position: absolute;
+  top: 70%;
+  left: 78%;
+}
+
 .brooklyn {
   position: absolute;
   bottom: 10px;
@@ -121,4 +169,53 @@ img {
   @media (max-width: 992px) {
     display: none;
   }
+}
+
+//Menu Styles-------------------------------------------------------------------
+
+.nav {
+  margin-top: 20px;
+  background: red;
+  border-radius: 6px 6px 0 0;
+  a {
+    color: white;
+  }
+}
+
+.tab-pane {
+  li {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+
+.tab-content {
+  background: white;
+  padding: 5px 10px 20px 2px;
+}
+
+.toppings {
+  margin-top: 15px;
+}
+
+.columns {
+  column-count: 2;
+  column-gap: 50%;
+  li {
+    margin-top: 0;
+  }
+}
+
+.menu-tab-title {
+  margin-left: 10px;
+}
+
+.price {
+  color: #71D632;
+}
+
+//Printable Menu Page Styles----------------------------------------------------
+
+.menu-pdf-container {
+  height: 100vh;
 }

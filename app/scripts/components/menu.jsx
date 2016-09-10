@@ -188,11 +188,6 @@ var MenuComponent = React.createClass({
               </li>
             </ul>
           </div>
-          {// <div className="tab-pane" id="blue">
-          //     <h1>Blue</h1>
-          //     <p>blue blue blue blue blue</p>
-          // </div>
-          }
         </div>
       </div>
     )
